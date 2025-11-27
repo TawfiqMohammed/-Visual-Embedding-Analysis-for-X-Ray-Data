@@ -1,0 +1,10 @@
+numpy
+torch
+torchvision
+opencv-python
+scikit-learn
+umap-learn
+matplotlib
+plotly
+Pillow
+segment-anything
