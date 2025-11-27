@@ -1,4 +1,7 @@
 #  Visual Embedding Analysis for X-rays of Cats & Dogs Dataset
+
+https://github.com/user-attachments/assets/5a4c06f8-8263-44c4-abf0-a6a73c7edb77
+
 This project explores how modern foundation vision models represent medical X-ray images.  
 We extract embeddings using **DINOv2**, combine them with **SAM2 segmentation**, and compare how well the representations cluster cats vs. dogs using **UMAP**, **t-SNE**, and quantitative metrics.
 
@@ -12,7 +15,7 @@ This notebook demonstrates:
 - Full reproducibility with structured outputs
 
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 AI4See-Assignment/
@@ -33,7 +36,7 @@ AI4See-Assignment/
 ```
 
 
-## 🚀 Methodology
+## Methodology
 
 ### **1. Preprocessing**
 - Load X-ray images in grayscale  
@@ -68,7 +71,7 @@ We compute:
 | SAM→DINOv2 + t-SNE | 0.0109 | 13.5544 |
 
 
-## 📊 Key Insights
+## Key Insights
 
 - **DINOv2 full-image embeddings outperform segmented SAM2 versions**  
   → SAM segmentation over-cropped anatomical details, weakening class separation.
@@ -82,7 +85,7 @@ We compute:
 - **Pipeline is fully reproducible and works on CPU/GPU**, with GPU providing ~10× speedup.
 
 
-## 📝 How to Run
+## How to Run
 1. Clone the repository  
 2. Install dependencies:
 ```
@@ -98,12 +101,18 @@ jupyter notebook notebook.ipynb
 4. Run all cells — outputs appear under `outputs/`.
 
 
-## 🎥 Demo
+## Demo
 A short demonstration video is included showing:
 - Notebook execution  
 - Intermediate visual outputs  
 - Final cluster comparison  
 
-## 📌 Author
+## Links
+All the deliverables and sharable links are included:
+- Notebook Link: https://colab.research.google.com/drive/1QxrMt-DPyDdHTktLDFrrVtK4USIKa3B4?usp=sharing
+- Drive Link: https://drive.google.com/drive/folders/1LHgMlgd7VXSGdekH-5DNUzoaPyuYTi_j?usp=sharing  
+
+
+## Author
 **Mohammed Tawfiq**  
 AI/ML Engineer — Computer Vision & GenAI  
