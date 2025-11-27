@@ -1,6 +1,6 @@
 #  Visual Embedding Analysis for X-rays of Cats & Dogs Dataset
 
-https://github.com/user-attachments/assets/5a4c06f8-8263-44c4-abf0-a6a73c7edb77
+https://github.com/user-attachments/assets/4aab9d38-d917-4f00-876f-9fff65e175af
 
 This project explores how modern foundation vision models represent medical X-ray images.  
 We extract embeddings using **DINOv2**, combine them with **SAM2 segmentation**, and compare how well the representations cluster cats vs. dogs using **UMAP**, **t-SNE**, and quantitative metrics.
